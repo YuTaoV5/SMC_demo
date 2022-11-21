@@ -21,9 +21,9 @@ function [sys,x0,str,ts,simStateCompliance]=mdlInitializeSizes   %初始化子�
  
 sizes = simsizes;
  
-sizes.NumContStates  = 2;  %连续状态变量个数
-sizes.NumDiscStates  = 0;  %离散状态变量个数
-sizes.NumOutputs     = 2;  %输出变量个数
+sizes.NumContStates  = 2;   %连续状态变量个数
+sizes.NumDiscStates  = 0;   %离散状态变量个数
+sizes.NumOutputs     = 2;   %输出变量个数
 sizes.NumInputs      = 2;   %输入变量个数
 sizes.DirFeedthrough = 0;   %输入信号是否在输出端出现
 sizes.NumSampleTimes = 1;   % at least one sample time is needed

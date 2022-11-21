@@ -1,6 +1,6 @@
 %% Matlab R2021a
 % Designed by YuTaoV5
-% q1.m is designed for Sliding mode control based on approach law
+% q2.m is designed for Upper bound Sliding Mode Control
 % you can send issues in https://github.com/YuTaoV5/SMC_demo if you have any question
 clc
 clear

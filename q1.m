@@ -20,7 +20,7 @@ u2=-inv(c*B)*((c*A*x)+epc*sign(s)+k*s)
 u3=-inv(c*B)*((c*A*x)+k*abs(s)^a*sign(s))
 
 %% 绘制相轨迹
-% 用附加包, 地址如下:
+% 使用附加包, 地址如下:
 % https://github.com/MathWorks-Teaching-Resources/Phase-Plane-and-Slope-Field
 % x' = y
 % y' = -25*y -(epc*sign(c1*x + c2*y) +y*(c1 - 25*c2))/c2

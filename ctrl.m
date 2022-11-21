@@ -10,7 +10,7 @@ switch flag,
   case 3,
     sys=mdlOutputs(t,x,u);    %计算输出子函数
   case 4,
-    sys=[];   %计算下一仿真时刻子函数
+    sys=[];    %计算下一仿真时刻子函数
   case 9,
     sys=[];    %终止仿真子函数
   otherwise
