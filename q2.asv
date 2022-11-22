@@ -7,10 +7,10 @@ clear
 close all;
 %% 调参
 global J c epc my_flag
-J = 1.5;%转动惯量
-c = 1;
-epc = 0.5;%固定切换倍率，取决于执行器切换能力，电机速度控制的话epc可以给高；位置控制的话建议给低
-my_flag = 1;
+J = 1.5;
+c = 0.9;
+epc = 2;%切换倍率，提高则增加执行器切换
+my_flag = 0;
 %% 运行模型
 sim('my_sim.mdl')
 %% 可视化

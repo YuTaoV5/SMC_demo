@@ -50,7 +50,7 @@ de = dth - dthd;   %因为输入信号在阶跃后保持1,导数为0
 s = c*e + de;
 
  
-ut = -c*J*de - J*epc*sign(s) - dt + J*ddthd
+ut = -c*J*de - J*epc*sign(s) + J*ddthd %- dt 
 sys(1) = ut;
 sys(2) = e;
 sys(3) = de;
